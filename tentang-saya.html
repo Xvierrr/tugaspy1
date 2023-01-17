@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Tentang Saya</title>
+    </head>
+    <body>
+        <h2>Tentang Saya</h2>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('kontakSaya')}}">Kontak Saya</a></li>
+                <li><a href="{{ url_for('tentangSaya')}}">Tentang Saya</a></li>
+            </ul>
+        
+
+        <!-- judul -->
+        <div class="judul">
+            <h1 class="judul1">Profil Bio Data</h1>
+        </div>
+
+        <div>
+            <table border="1" align="center" class="tabel">
+                <tr class="data">
+                    <td width="230"><b>Data Diri</b></td>
+                    <td width="250"><b>Keterangan</b></td>
+                    <td width="250"><b>Gambar</b></td>
+                </tr>
+                <tr class="nama">
+                    <td><b>Nama</b></td>
+                    <td>javier Thoriq Muhammad  </td>
+                    <td rowspan="5"><img src="krisna1.jpg" width="250"/></td>
+                </tr>
+                <tr class="tempat">
+                    <td><b>Tempat/Tanggal Lahir</b></td>
+                    <td>Gresik, 19 juni 2005</td>
+                </tr>
+                <tr class="jenis">
+                    <td><b>Jenis Kelamin</b></td>
+                    <td>Laki-Laki</td>
+                </tr>
+                <tr class="pekerjaan">
+                    <td><b>Pekerjaan</b></td>
+                    <td>Siswa</td>
+                </tr>
+                <tr class="hobi">
+                    <td><b>Hobi</b></td>
+                    <td>Mencari kesibukan yang ga menyibukan</td>
+                </tr>
+
+            </table>
+        </div>
+    </body>
+</html>
